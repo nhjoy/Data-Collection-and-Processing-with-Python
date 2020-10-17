@@ -18,7 +18,7 @@ they are both longer than 3 characters each.
 
 l1 = ['left', 'up', 'front']
 l2 = ['right', 'down', 'back']
-
+l3 = zip(l1, l2)
 opposites = filter(lambda x: len(x[0])>3 and len(x[1])>3, l3)
 
 # Question 7
